@@ -21,7 +21,7 @@ public class User {
 	}
 	public User() {
 		super();
-		System.out.println("THISsss");
+		System.out.println("User");
 		// TODO Auto-generated constructor stub
 	}
 	@Override
