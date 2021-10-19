@@ -1,6 +1,12 @@
 package com.training.bean;
 
 public class User {
+	public User(int userid, String userName, String userEmail) {
+		super();
+		this.userid = userid;
+		this.userName = userName;
+		this.userEmail = userEmail;
+	}
 	public int getUserid() {
 		return userid;
 	}
